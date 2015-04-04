@@ -2,4 +2,30 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+.enemies {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+}
 
+#board {
+  position: relative;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.scoreboard {
+  position: fixed;
+}
+
+.player {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+
+}
